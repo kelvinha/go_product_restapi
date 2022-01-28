@@ -33,13 +33,22 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 
 | Method | Route | Description | params |
 | --- | --- | --- | --- |
-| `GET` | `/produk` | Menampilkan seluruh data `produk` secara urut | None |
-| `GET` | `/produk/?sortingBy=ASC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari A hingga Z | None |
-| `GET` | `/produk/?sortingBy=DESC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari Z hingga A | None |
-| `GET` | `/produk/?sortingBy=high-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termahal hingga termurah | None |
-| `GET` | `/produk/?sortingBy=low-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termurah hingga termahal | None |
+| `GET` | `/produk` | Menampilkan seluruh data `produk` secara urut | - |
+| `GET` | `/produk/?sortingBy=ASC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari A hingga Z | - |
+| `GET` | `/produk/?sortingBy=DESC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari Z hingga A | - |
+| `GET` | `/produk/?sortingBy=high-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termahal hingga termurah | - |
+| `GET` | `/produk/?sortingBy=low-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termurah hingga termahal | - |
 
 ---
+
+# Endpoint untuk Create Data Produk
+
+| Method | Route | Description | params |
+| --- | --- | --- | --- |
+| `POST` |`/create` | Melakukan input sebuah data `produk` baru | - |
+
+---
+
 # Endpoint untuk Update Data Produk
 
 | Method | Route | Description | params |
