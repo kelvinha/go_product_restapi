@@ -30,10 +30,14 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 ```
 
 # Endpoints
+`Endpoint untuk Get Data Produk`
 
 | Route | Description | params |
 | --- | --- | --- |
-| Get Data Produk | | |
-| `GET products` | Mengembalikan semua `product` urut berdasarkan product terbaru | None |
+| `/produk` | Menampilkan seluruh data `product` secara urut | None |
+| `/produk/?sortingBy=ASC` | Menampilkan seluruh data `product` dengan urutan nama produk dari A hingga Z | None |
+| `/produk/?sortingBy=DESC` | Menampilkan seluruh data `product` dengan urutan nama produk dari Z hingga A | None |
+| `/produk/?sortingBy=high-price` | Menampilkan seluruh data `product` dengan urutan harga produk dari yang termahal hingga termurah | None |
+| `/produk/?sortingBy=low-price` | Menampilkan seluruh data `product` dengan urutan harga produk dari yang termurah hingga termahal | None |
 
 <br>
