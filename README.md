@@ -29,8 +29,7 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 
 ```
 
-# Endpoints
-`Endpoint untuk Get Data Produk`
+# Endpoint untuk Get Data Produk
 
 | Route | Description | params |
 | --- | --- | --- |
