@@ -28,3 +28,9 @@ git clone https://github.com/kelvinha/go_product_restapi
 Jalankan perintah go run main.go untuk menjalankan project dan instalisasi package / library yang dibutuhkan
 
 ```
+
+# Endpoints
+
+| Route | Description | params |
+| Get Produk |
+| `GET products` | Mengembalikan semua `product` urut berdasarkan product terbaru | None |
