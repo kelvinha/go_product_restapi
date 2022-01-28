@@ -34,3 +34,5 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 | Route | Description | params |
 | Get Produk |
 | `GET products` | Mengembalikan semua `product` urut berdasarkan product terbaru | None |
+
+<br>
