@@ -32,7 +32,8 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 # Endpoints
 
 | Route | Description | params |
-| Get Produk |
+| --- | --- | --- |
+| Get Data Produk |
 | `GET products` | Mengembalikan semua `product` urut berdasarkan product terbaru | None |
 
 <br>
