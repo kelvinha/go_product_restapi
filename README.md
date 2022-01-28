@@ -57,5 +57,13 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 
 ---
 
+# Endpoint untuk Delete Data Produk
+
+| Method | Route | Description | params |
+| --- | --- | --- | --- |
+| `DELETE` |`/delete` | Melakukan hapus sebuah data `produk` berdasarkan id produk | id_produk |
+
+---
+
 
 <br>
