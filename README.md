@@ -2,7 +2,9 @@
 
 Full Rest API product dengan bahasa pemrograman Go dan RDMS Mysql
 
-Semua Endpoint pada aplikasi ini diuji menggukan Aplikasi [Postman] (https://www.getpostman.com/).
+Semua Endpoint pada aplikasi ini diuji menggukan Aplikasi Postman (https://www.getpostman.com/).
+
+## Berikut beberapa langkah untuk menjalankan project Go tersebut.
 
 **1. Mengunduh project**
 
