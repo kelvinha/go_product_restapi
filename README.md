@@ -34,10 +34,10 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 | Method | Route | Description | params |
 | --- | --- | --- | --- |
 | `GET` | `/produk` | Menampilkan seluruh data `produk` secara urut | - |
-| `GET` | `/produk?sortingBy=ASC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari A hingga Z | - |
-| `GET` | `/produk?sortingBy=DESC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari Z hingga A | - |
-| `GET` | `/produk?sortingBy=high-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termahal hingga termurah | - |
-| `GET` | `/produk?sortingBy=low-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termurah hingga termahal | - |
+| `GET` | `/produk?sortingBy=ASC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari A hingga Z | sortingBy=ASC |
+| `GET` | `/produk?sortingBy=DESC` | Menampilkan seluruh data `produk` dengan urutan nama produk dari Z hingga A | sortingBy=DESC |
+| `GET` | `/produk?sortingBy=high-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termahal hingga termurah | sortingBy=high-price |
+| `GET` | `/produk?sortingBy=low-price` | Menampilkan seluruh data `produk` dengan urutan harga produk dari yang termurah hingga termahal | sortingBy=low-price |
 
 ---
 
@@ -98,7 +98,3 @@ Thank you,
 
 Kelpin Hartanto.
 
-
-
-
-<br>
