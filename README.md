@@ -65,7 +65,7 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 
 ---
 
-## Cara pengetesan Endpoint pada Postman dengan menggunakan raw data untuk metode POST dan PUT
+## Cara pengetesan Endpoint pada Postman <br> menggunakan raw data untuk metode POST dan PUT
 ```bash
 - Buka aplikasi Postman
 - Lalu pilih Body dan pilih raw
