@@ -65,5 +65,13 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 
 ---
 
+## Berikut cara pengetesan Endpoint pada Postman dengan menggunakan Raw Data.
+```bash
+- Buka aplikasi Postman
+- Lalu pilih Body dan pilih raw
+- Piilih formatnya menjadi JSON
+- Berikut format untuk mengirimkan Request Endpoint
+```
+
 
 <br>
