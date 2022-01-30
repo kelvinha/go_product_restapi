@@ -25,7 +25,7 @@ git clone https://github.com/kelvinha/go_product_restapi
 **3. Run Project**
 
 ```bash
-Jalankan perintah go run main.go untuk menjalankan project dan instalisasi package / library yang dibutuhkan
+Jalankan perintah `go run main.go` untuk menjalankan project dan instalisasi package / library yang dibutuhkan
 
 ```
 
