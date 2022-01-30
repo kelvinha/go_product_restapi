@@ -65,13 +65,24 @@ Jalankan perintah go run main.go untuk menjalankan project dan instalisasi packa
 
 ---
 
-## Berikut cara pengetesan Endpoint pada Postman dengan menggunakan Raw Data.
+## Cara pengetesan Endpoint pada Postman dengan menggunakan raw data untuk metode POST dan PUT
 ```bash
 - Buka aplikasi Postman
 - Lalu pilih Body dan pilih raw
-- Piilih formatnya menjadi JSON
-- Berikut format untuk mengirimkan Request Endpoint
+- Piiih formatnya menjadi JSON
 ```
+# Format JSON untuk POST Data Produk
+```JSON
+{
+    "product_name": "Nike Vapor Max 2019",
+    "product_price": 1530000,
+    "product_description": "Nike Vapor Max 2019 adalah sepatu sneakers Unisex model Low Cut dengan ujung sepatu berbentuk Almond. Dibuat dengan material insole dari Polyster dan outsole dari Rubber, sepatu sneakers Nike ini bisa membuat penampilan kamu terlihat semakin keren. Langsung beli dan dapatkan harga Nike Vapor Max 2019 yang termurah mulai dari IDR1449000 hanya di iPrice Indonesia.",
+    "product_quantity": 10
+}
+
+```
+
+
 
 
 <br>
